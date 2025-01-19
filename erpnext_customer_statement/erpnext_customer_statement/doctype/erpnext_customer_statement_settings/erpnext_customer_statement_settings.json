@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "creation": "2025-01-19 13:21:20.269546",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_statement_section",
+  "enabled",
+  "letterhead",
+  "print_format",
+  "remove_subtotal",
+  "column_break_eotw"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_statement_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled"
+  },
+  {
+   "fieldname": "column_break_eotw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "enabled",
+   "fieldname": "letterhead",
+   "fieldtype": "Link",
+   "label": "Letterhead",
+   "options": "Letter Head"
+  },
+  {
+   "depends_on": "enabled",
+   "fieldname": "print_format",
+   "fieldtype": "Link",
+   "label": "Print Format",
+   "options": "Print Format"
+  },
+  {
+   "default": "0",
+   "depends_on": "enabled",
+   "fieldname": "remove_subtotal",
+   "fieldtype": "Check",
+   "label": "Remove Subtotal"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-01-19 14:07:30.402710",
+ "modified_by": "Administrator",
+ "module": "Erpnext Customer Statement",
+ "name": "Erpnext Customer Statement Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "All",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
