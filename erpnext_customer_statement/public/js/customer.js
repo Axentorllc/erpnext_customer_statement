@@ -4,8 +4,8 @@ frappe.ui.form.on("Customer", "refresh", function (frm) {
   frappe.call({
     method: "frappe.client.get",
     args: {
-      doctype: "Erpnext Customer Statement Settings",
-      name: "Erpnext Customer Statement Settings",
+      doctype: "ERPNext Customer Statement Settings",
+      name: "ERPNext Customer Statement Settings",
     },
     callback(r) {
       if (r.message) {

@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class ErpnextCustomerStatementSettings(Document):
-	pass
+class ERPNextCustomerStatementSettings(Document):
+    pass

@@ -54,7 +54,7 @@
  "modified": "2025-01-19 14:07:30.402710",
  "modified_by": "Administrator",
  "module": "Erpnext Customer Statement",
- "name": "Erpnext Customer Statement Settings",
+ "name": "ERPNext Customer Statement Settings",
  "owner": "Administrator",
  "permissions": [
   {

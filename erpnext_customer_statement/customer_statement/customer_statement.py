@@ -12,7 +12,7 @@ from frappe.www.printview import get_print_style
 
 class CustomerStatement(object):
     def __init__(self):
-        self.settings = frappe.get_doc("Erpnext Customer Statement Settings")
+        self.settings = frappe.get_doc("ERPNext Customer Statement Settings")
 
     def validate(self):
         self.validate_feature()
